@@ -1,19 +1,21 @@
 # Cheatr
+*Cheatsheets on the command line.*
+
 > 🚧️🚨️ This project is in pre-alpha 🚨️🚧️
 
-> Pronounced *cheater*. Cheatsheets on the command line.
-
 ![Not ready yet](https://img.shields.io/badge/status-pre_alpha-red.svg?style=for-the-badge)
-[![License: MIT](https://img.shields.io/github/license/b3u/cheatr.svg?style=for-the-badge)](https://github.com/b3u/cheatr/blob/master/license.md)
+[![License: MIT](https://img.shields.io/github/license/b3u/cheatr?style=for-the-badge)](https://github.com/b3u/cheatr/blob/master/license.md)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=for-the-badge)](https://github.com/xojs/xo)
-[![Build Status](https://img.shields.io/travis/b3u/cheatr.svg?style=for-the-badge)](https://travis-ci.com/b3u/cheatr)
-<!-- [![on npm](https://img.shields.io/npm/dt/cheatr.svg?style=for-the-badge)](https://npmjs.com/package/cheatr) -->
+[![Build Status](https://img.shields.io/travis/b3u/cheatr?style=for-the-badge)](https://travis-ci.com/b3u/cheatr)
+<!-- [![on npm](https://img.shields.io/npm/dt/cheatr?style=for-the-badge)](https://npmjs.com/package/cheatr) -->
 
 ## Install
-Cheatr is available as an [npm package](https://npmjs.com/package/cheatr), and also as a platform-specific executable via the [releases page](https://github.com/b3u/cheatr/releases). Snap coming soon.
+<!-- Cheatr is available as an [npm package](https://npmjs.com/package/cheatr), and also as a platform-specific executable via the [releases page](https://github.com/b3u/cheatr/releases). Snap coming soon. -->
+We're not ready to release this just yet. You're welcome to build it yourself.
+
 
 ## Configuration
-By default, Cheatr stores sheets in `~/Documents/cheatr/` (or an os-equivalent). You can change that by creating a configuration file in `~/.config/cheatr/config.yaml`. See [./sample-config.yaml](./sample-config.yaml) for available options.
+By default, Cheatr stores sheets in `~/Documents/cheatr/` (or an os-equivalent). You can change that by creating a configuration file in `~/.config/cheatr/config.yaml`. See [./sample-config.yaml](https://github.com/b3u/cheatr/blob/master/sample-config.yaml) for available options.
 
 ## Usage
 > **Note**: Angle-brackets <> indicate required arguments while square-brackets [] indicate optional arguments
@@ -39,8 +41,8 @@ cheatr -s s[c|a]ss
 
 ### Options
 Flag|Description
----|---
-`-h [command], --help [command]`|Show general or command-specific information
+:---|:---
+`-h, --help`|Show general information
 `-v, --version`|Show the cli version
 `-e, --edit`|Edit or create a cheatsheet
 `-l,--list`|List available cheatsheets
