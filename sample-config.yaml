@@ -1,0 +1,15 @@
+# Path in which to store new cheatsheets
+# (default: ~/Documents/cheatr)
+basedir: ~/Documents/cheatsheets
+
+# Additional directories in which to search
+# for cheatsheets (default: none)
+adtl_dirs:
+  - ~/Dropbox/cheatsheets
+  - ~/foo
+
+# Enable syntax highlighting in output (default: true)
+highlight: true
+
+# CLI text editor to use when creating/editing a file (default: vim)
+editor: vim

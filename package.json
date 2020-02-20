@@ -1,0 +1,30 @@
+{
+  "name": "cheatr",
+  "version": "1.0.0-pre-alpha",
+  "description": "Cheatsheets on the command line",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "xo && ava",
+    "compile:win": "pkg index.js --targets=win",
+    "compile:darwin": "pkg index.js --targets=macos",
+    "compile:linux": "pkg index.js --targets=linux"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3u/cheatr.git"
+  },
+  "keywords": [],
+  "author": "Binyamin Aron Green",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^3.3.0",
+    "pkg": "^4.4.3",
+    "xo": "^0.26.1"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "cliui": "^6.0.0",
+    "configstore": "^5.0.1"
+  }
+}
